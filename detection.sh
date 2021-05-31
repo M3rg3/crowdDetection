@@ -26,7 +26,7 @@ echo "Starting ProbeQuest ......Started"
 
 
 #creates new terminal which will run the ProbeQuest scan
-gnome-terminal -- probequest -i wlan0mon -o /home/pi/crowdDetection/VID.txt
+gnome-terminal -- probequest -i wlan0mon --fake -o /home/pi/crowdDetection/VID.txt
 
 #waits for 60 seconds
 sleep 60
