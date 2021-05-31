@@ -15,7 +15,7 @@ sudo airmon-ng start wlan0
 echo "Airmon-ng Started!"
 
 #ensures probequest is installed properly
-sudo pip3 install --upgrade probequest
+sudo pip3 install --upgrade probequest, pymongo, dnspython
 
 while [ 1 ]
 do
