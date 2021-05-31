@@ -17,6 +17,8 @@ echo "Airmon-ng Started!"
 #ensures probequest is installed properly
 sudo pip3 install --upgrade probequest, pymongo, dnspython
 
+sudo airodump-np wlan0mon
+echo "airodump-np Started!"
 while [ 1 ]
 do
 
